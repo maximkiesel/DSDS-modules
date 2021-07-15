@@ -1,0 +1,33 @@
+footer {
+    background-color: rgba(0,0,0,0.8);
+    padding-left: 10%;
+    padding-right: 10%;
+    color: beige;
+    padding-top: 36px;
+}
+
+footer .column a{
+    display: block;
+    padding-bottom: 12px;
+}
+
+footer .column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+footer .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer .fa {
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}

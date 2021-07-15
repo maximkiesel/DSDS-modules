@@ -1,0 +1,123 @@
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+    color: beige;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("../../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 2;
+    color: beige;
+}
+#overlay{
+    background-color: rgba(0,0,0,0.3);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    /*overflow: hidden;*/
+}
+
+#headline{
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    overflow: hidden;
+    color: beige;
+    font-family: "Gabriola";
+}
+
+.page-content .p1 {
+    color: beige;
+    text-align: center;
+}
+
+.page-content .p2 {
+    color: beige;
+}
+
+.page-content a{
+    color: brown;
+}
+
+.page-content {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    padding: 8px 16px 8px;
+    font-family: "Comic Sans MS";
+}
+
+
+/*pics in der about me Seite*/
+.pics {
+    height: 150px;
+    float: right;
+    padding-top: 16px;
+}
+
+.pics2 {
+    height: 150px;
+    float: left;
+    padding-bottom: 16px;
+}
+.pics2 {
+    height: 150px;
+    float: left;
+    padding-bottom: 16px;
+}
+.pics3 {
+    height: 300px;
+    float: bottom;
+    padding-bottom: 16px;
+
+}
+
+
+
+
+/*footer*/
+footer {
+    background-color: rgba(0,0,0,0.8);
+    padding-left: 10%;
+    padding-right: 10%;
+    color: beige;
+    padding-top: 36px;
+}
+
+footer .column a{
+    display: block;
+    padding-bottom: 12px;
+}
+
+footer .column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+footer .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer .fa {
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}
+
+
+
+
